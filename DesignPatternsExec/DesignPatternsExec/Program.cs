@@ -17,6 +17,8 @@ namespace DesignPatternsExec
             mode.AbstructFactory();
             mode.ShowBuilderMode();
 
+            new AdapterMode().ShowAdapterPattern();
+
         }
     }
 }
