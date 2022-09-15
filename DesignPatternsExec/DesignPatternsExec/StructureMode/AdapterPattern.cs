@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsExec
 {
-    public class AdapterMode
+    public class AdapterPattern
     {
         public void ShowAdapterPattern()
         {

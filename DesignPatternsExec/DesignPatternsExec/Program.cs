@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesignPatternsExec.StructureMode;
+using System;
 using System.Net.Http;
 using System.Text;
 
@@ -11,14 +12,15 @@ namespace DesignPatternsExec
 
 
             HttpClient client = new HttpClient();
+            new FlyWeightPattern().Show();
 
             var mode = new BuildMode();
             mode.ShowSingleton();
             mode.AbstructFactory();
             mode.ShowBuilderMode();
 
-            new AdapterMode().ShowAdapterPattern();
-
+            new AdapterPattern().ShowAdapterPattern();
+            
         }
     }
 }
